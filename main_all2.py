@@ -208,8 +208,8 @@ def main (args):
     gan_mlp.append(gan_score_mlp)
     egan_mlp.append(egan_score_mlp)
 
-    gan_score_dt   = clf_DT(imputed_data_x  , y, train_idx, test_idx)
-    egan_score_dt  = clf_DT(imputed_data_x  , y, train_idx, test_idx)
+    gan_score_dt   = clf_DT(imputed_data_x    , y, train_idx, test_idx)
+    egan_score_dt  = clf_DT(imputed_data_x_e  , y, train_idx, test_idx)
     gan_dt.append(gan_score_dt)
     egan_dt.append(egan_score_dt)
 
