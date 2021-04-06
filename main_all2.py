@@ -191,8 +191,8 @@ def main (args):
     #mice_rs.append(rmse_mice)
     #miss_rs.append(rmse_mf)
 
-    imputed_data_x, _     = normalization(imputed_data_x)
-    imputed_data_x_e, _   = normalization(imputed_data_x_e)
+    #imputed_data_x, _     = normalization(imputed_data_x)
+    #imputed_data_x_e, _   = normalization(imputed_data_x_e)
     #imputed_data_mf, _    = normalization(imputed_data_mf)
     #imputed_data_mice, _  = normalization(imputed_data_mice)
 
