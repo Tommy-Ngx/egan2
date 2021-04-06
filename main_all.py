@@ -163,7 +163,7 @@ def main (args):
 
   for i in range(time):
     # Load data and introduce missingness
-    ori_data_x, miss_data_x, data_m, y  = data_loader3(data_name, miss_rate,time)
+    ori_data_x, miss_data_x, data_m, y  = data_loader3(data_name, miss_rate, i)
     train_idx, test_idx = train_test_split(range(len(y)), test_size=0.3, stratify=y, random_state=42)
 
     if i % 5 == 0:
