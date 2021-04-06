@@ -267,7 +267,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument(
       '--data_name',
-      choices=['letter','spam', 'breast', 'credit', 'news','blood','vowel','ecoli','ionosphere','parkinsons','seedst','vehicle','vertebral','wine','banknote','balance','yeast'],
+      choices=['obesity', 'hepatitisC', 'audit','letter','spam', 'breast', 'credit', 'news','blood','vowel','ecoli','ionosphere','parkinsons','seedst','vehicle','vertebral','wine','banknote','balance','yeast'],
       default='spam',
       type=str)
   parser.add_argument(
